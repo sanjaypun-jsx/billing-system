@@ -1,0 +1,95 @@
+.App {
+  font-family: Manrope;
+  text-align: center;
+  display:block;
+}
+
+body {
+  height: 100%;
+  font-size:15px;
+}
+
+h1 {
+  font-weight: 600;
+}
+p {
+  color: #a6a6a6;
+  font-weight: 600;
+}
+
+.offer-box {
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  padding: 30px 60px;
+  border-radius: 15px;
+  background:white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.ant-slider {
+  width: 100%;
+  margin: auto;
+}
+.ant-slider-rail{
+  height:10px !important;
+  border-radius:10px !important;
+  background:hsl(174, 77%, 80%) !important;
+}
+.ant-slider-track{
+  height:10px !important;
+  background:hsl(174, 86%, 45%) !important;
+}
+.ant-slider-handle{
+  width:40px !important;
+  height:40px !important;
+  margin-top:-15px !important;
+  border:none !important;
+  background:hsl(174, 77%, 80%) !important;
+  cursor:pointer;  
+  cursor:active{
+    cursor: -webkit-grabbing;
+    cursor: grabbing;
+  }
+  
+  &:hover{
+    background:hsl(174, 86%, 45%) !important;
+  }
+}
+.views-price {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  span{
+    color:black
+  }
+}
+
+.discount-style {
+  color: hsl(15, 100%, 70%);
+  background: hsl(14, 92%, 95%);
+  padding: 1px 8px;
+  border-radius:10px;
+}
+.billing-discount {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: auto;
+  margin-top:10%;
+}
+.ant-btn {  
+  background: hsl(227, 35%, 25%) !important;
+  width:150px !important;  
+  height:50px !important;
+  color:white !important;
+  border-radius:30px !important;
+}
+
+.ant-switch{
+  background:hsl(174, 77%, 80%) !important;
+}
+
+.hand:active {
+
+}

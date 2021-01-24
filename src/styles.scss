@@ -2,6 +2,7 @@
   font-family: Manrope;
   text-align: center;
   display:block;
+  padding:20px;
 }
 
 body {
@@ -18,8 +19,8 @@ p {
 }
 
 .offer-box {
-  width: 600px;
-  height: 400px;
+  max-width: 600px;
+  height: auto;
   margin: auto;
   padding: 30px 60px;
   border-radius: 15px;
@@ -71,12 +72,15 @@ p {
   border-radius:10px;
 }
 .billing-discount {
-  width: 80%;
   display: flex;
   justify-content: space-between;
   align-content: center;
   margin: auto;
   margin-top:10%;
+  @media (max-width:375px) {
+    width:120%;
+    font-size:10px !important;
+}
 }
 .ant-btn {  
   background: hsl(227, 35%, 25%) !important;

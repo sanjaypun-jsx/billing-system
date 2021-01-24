@@ -91,12 +91,12 @@ export default function App() {
         </div>
         <Divider style={{ marginTop: "10%" }} />
         <Row style={{ marginTop: "5%" }}>
-          <Col span={16}>
+          <Col span={16} xs={24} sm={16} md={16}>
             {PointsList?.map((point) => {
               return <Points key={point.id}>{point.des}</Points>;
             })}
           </Col>
-          <Col span={8} style={{ margin: "auto" }}>
+          <Col span={8} xs={24} sm={8} md={8} style={{ margin: "auto" }}>
             <Button>Start my trial</Button>
           </Col>
         </Row>
